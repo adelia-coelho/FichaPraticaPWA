@@ -12,5 +12,13 @@ código que já está funcionando.
 
 3 – Nos Merges de conteúdos resultantes de um “Pop” podem resultar em conflitos. Em 
 que consistem e como podem ser resolvidos esses conflitos? 
+Os conflitos nos "Merges" acontecem quando há diferenças irreconciliáveis entre as alterações guardadas no
+stash e as alterações atuais na branch em que o projeto se encontra.Esses conflitos ocorrem, principalmente, 
+quando o Git não consegue  automaticamente juntar as alterações, como por exemplo, quando o o ficheiro foi 
+alterado exatemente nas mesma linhas, sendo que foram modificados tanto no stash quanto no histórico 
+recente da branch.
+O conflito pode ser resolvido do seguinte modo: executar o stash com git stash pop, no ficheiro em conflito e editar 
+manualmente, adicionar os ficheiro alterado com git add e finalizar o processo com git commit. 
+
 4 – “Clone” e “Fork” são formas diferentes de replicar um repositório Git. Quais as 
 diferenças entre eles? 
