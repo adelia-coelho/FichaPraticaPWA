@@ -1,0 +1,62 @@
+<html>
+    <head>
+        <title> Ficha Prática PWA</title>
+        <style>
+            #Pergunta{        
+                font-family: 'Courier New', Courier, monospace;
+                font-size:16px;
+                font-weight: bold;
+                color:#7d817e;
+            
+            }
+            #Resposta{        
+                font-family: 'Courier New', Courier, monospace;
+                font-size:14px;
+                color:#0a0a0a;
+                text-align: justify;
+                
+            }
+
+        </style>
+    </head>    
+    <body>
+        <ol>
+            <li><p id="Pergunta"> O que são operações de “Commit”, “Pus” e “Pop” efetuadas num repositório? </p>
+                <p id="Resposta">A operação "Commit" permite criar uma  instâncea das pequenas alterações efetuados no projeto no GiT, 
+                registando cada alteração que foi efectuada, a data da alteração e o autor da alteração.
+                A operação "push" permite enviar os "Commits" locais para o respositório remoto, permitindo a partilha 
+                do trabalho desenvolvido com outros colaboradores, ou simplesmente realizar um backup das alterações.
+                A operação "POP" permite que mover as alterações arquivadas mais recentes para a pasta de trabalho,
+                também exclua o stash exibido após a conclusão do comando.</p>
+            </li>
+        
+        <li>
+            <p id="Pergunta">Quais sáo as vantagens de usar Branchs num repositório git? </p>
+            <p id="Resposta"> As vantagens do branches são: permite que se desenvolva novas funcionalidades e corrija bugs sem interferir no 
+                código que já está funcionando.
+            </p>
+        </li>
+        <li>
+            <p id="Pergunta">Nos Merges de conteúdos resultantes de um “Pop” podem resultar em conflitos. Em 
+                que consistem e como podem ser resolvidos esses conflitos? </p>
+            <p id="Resposta">Os conflitos nos "Merges" acontecem quando há diferenças irreconciliáveis entre as alterações guardadas no
+                stash e as alterações atuais na branch em que o projeto se encontra.Esses conflitos ocorrem, principalmente, 
+                quando o Git não consegue  automaticamente juntar as alterações, como por exemplo, quando o o ficheiro foi 
+                alterado exatemente nas mesma linhas, sendo que foram modificados tanto no stash quanto no histórico 
+                recente da branch.
+                O conflito pode ser resolvido do seguinte modo: executar o stash com git stash pop, no ficheiro em conflito e editar 
+                manualmente, adicionar os ficheiro alterado com git add e finalizar o processo com git commit. 
+                </p>
+        </li>
+        <li>
+            <p id="Pergunta">“Clone” e “Fork” são formas diferentes de replicar um repositório Git. Quais as 
+                diferenças entre eles? </p>
+            <p id="Resposta">No "Clone", permite fazer uma cópia local do repositório do GitHub, sendo que o utlizador tem premissões 
+                para enviar alterações para o respositoria. Sem a obrigatoriedade de contribuir para o reqpositório.
+                Enquanto no "Fork", o utilizador não tem permissões para enviar alterações, podendo apenas efetuar alterações
+                na copia local. 
+                </p>
+        </li>
+        </ol>
+</body>
+</html>
