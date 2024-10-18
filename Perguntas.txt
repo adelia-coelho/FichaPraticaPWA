@@ -7,6 +7,9 @@ A operação "POP" permite que mover as alterações arquivadas mais recentes pa
 também exclua o stash exibido após a conclusão do comando.
 
 2 – Quais sáo as vantagens de usar Branchs num repositório git? 
+As vantagens do branches são: permite que se desenvolva novas funcionalidades e corrija bugs sem interferir no 
+código que já está funcionando.
+
 3 – Nos Merges de conteúdos resultantes de um “Pop” podem resultar em conflitos. Em 
 que consistem e como podem ser resolvidos esses conflitos? 
 4 – “Clone” e “Fork” são formas diferentes de replicar um repositório Git. Quais as 
